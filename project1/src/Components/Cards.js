@@ -10,28 +10,28 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src="/images/img-9.jpg"
-                            text="Explore the "
-                            label='Adventure'
+                            src="/images/img-1.jpg"
+                            text="Plazhet Mahnitese"
+                            label='Aventure'
                             path='/services'
                         />
 
                         <CardItem
                             src="/images/img-2.jpg"
-                            text="Explore the beautiful beaches"
-                            label='Adventure'
+                            text="Qyteti i Beratit"
+                            label='Tradite'
+                            path='/services'
+                        />
+                        <CardItem
+                            src="/images/img-5.jpg"
+                            text="Syri I Kalter"
+                            label='Aventure'
                             path='/services'
                         />
                         <CardItem
                             src="/images/img-8.jpg"
-                            text="Explore the beautiful beaches"
-                            label='Adventure'
-                            path='/services'
-                        />
-                        <CardItem
-                            src="/images/img-9.jpg"
-                            text="Explore the beautiful beaches"
-                            label='Adventure'
+                            text="Alpet e Shqiperise"
+                            label='Aventure'
                             path='/services'
                         />
                     </ul>
