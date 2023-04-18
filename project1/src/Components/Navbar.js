@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
-import { FiMenu } from "react-icons/fi";
+import { FcMenu } from "react-icons/fc";
 import { Button } from "./Button";
 
 function Navbar() {
@@ -27,12 +27,12 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-container">
+                <div className="navbar-container" >
                     <Link to='/' className="navbar-logo">
                         MADO <i class='fab fa-typo3' />
                     </Link>
-                    <div className="menuicon" onClick={handleClick}>
-                        <FiMenu /><i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                    <div className="menu-icon" onClick={handleClick}>
+                        <FcMenu /><i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
@@ -42,12 +42,12 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/services' className="nav-links" onClick={closeMobileMenu}>
-                                Services
+                                Shërbimet
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/products' className="nav-links" onClick={closeMobileMenu}>
-                                Products
+                                Produktet
                             </Link>
                         </li>
                         <li className='nav-item'>
