@@ -1,9 +1,12 @@
 import React from 'react';
 import Herosec from '../Components/Herosec';
 
+
 function Home() {
   return (
-  <Herosec/>
+    <div>
+      <Herosec />
+    </div>
   )
 }
 
