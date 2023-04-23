@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Sigmar&display=swap');
 .App{
     text-align: center;
     font-family: sans-serif;
@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     grid-gap: 10px;
-    font-family: 'Sigmar', cursive;
+    font-family: 'Fira Sans', sans-serif;
 
 
 
