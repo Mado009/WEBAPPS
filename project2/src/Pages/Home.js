@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Herosec from '../Components/Herosec';
 
 function Home() {
   return (
-  <h1></h1>
+  <Herosec/>
   )
 }
 
