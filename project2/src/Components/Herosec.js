@@ -1,17 +1,20 @@
 import React from 'react';
 import './Herosec.css';
+import { Link } from 'react-router-dom';
 
-function Herosec() {
+function Herosec(props) {
     return (
         <>
-            <div className='hero-img'>
-                <img alt='HeroPic' src="https://thumbs.dreamstime.com/
-                b/real-estate-agent-offer-house-represented-model-wide-
-                banner-composition-bokeh-background-63596018.jpg" />
-            </div>
-            <div className='hero-text'>
-                <h1>Here You Will Find Your Future Home</h1>
-                <p>Choose your home</p>
+            <div className={props.cName}>
+                <img alt='HeroPic' src={props.heroimg} />
+
+                <div className='hero-text'>
+                    <h1>{props.title}</h1>
+                    <p>{props.text}</p>
+                    <Link to={props.url} className={props.btnclass}>
+                        {props.btntext}
+                    </Link>
+                </div>
             </div>
         </>
     )

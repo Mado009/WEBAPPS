@@ -12,10 +12,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' exact Component={Home}/>
-        <Route path='/services' exact Component={Services}/>
-        <Route path='/about' exact Component={About}/>
-        <Route path='/contact' exact Component={Contact}/>
+        <Route path='/' exact Component={Home} />
+        <Route path='/services' exact Component={Services} />
+        <Route path='/about' exact Component={About} />
+        <Route path='/contact' exact Component={Contact} />
       </Routes>
     </>
   );

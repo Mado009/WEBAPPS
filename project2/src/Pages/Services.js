@@ -1,8 +1,14 @@
 import React from 'react'
+import Herosec from '../Components/Herosec'
 
 function Services() {
   return (
-    <div>Services</div>
+    <Herosec
+      cName="hero-about"
+      heroimg="/images/img-2.jpg"
+      title="Services"
+      btnclass="hide"
+    />
   )
 }
 
