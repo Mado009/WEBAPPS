@@ -1,14 +1,18 @@
 import React from 'react'
 import Herosec from '../Components/Herosec'
+import Footer from '../Components/Footer'
+import Contactform from '../Components/Contactform'
 
 function Contact() {
   return (
-    <Herosec
-      cName="hero-about"
-      heroimg="/images/img-2.jpg"
-      title="Contact"
-      btnclass="hide"
-    />
+    <>
+    
+      <Contactform />
+      <Footer />
+    </>
+
+
+
   )
 }
 

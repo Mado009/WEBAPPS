@@ -69,9 +69,6 @@ button:hover {
 }
 
 @media screen and (max-width:850px) {
-    .container {
-        z-index: 99;
-    }
 
     .nav-menu {
         display: flex;
@@ -89,6 +86,7 @@ button:hover {
         margin: 0;
         transition: 0.3 ease-in-out;
         border-radius: 13px;
+        z-index: -1;
     }
 
     .nav-menu.active {

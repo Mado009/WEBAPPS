@@ -1,13 +1,14 @@
 import React from 'react'
 import Herosec from '../Components/Herosec';
+import Footer from '../Components/Footer';
+import Aboutus from '../Components/Aboutus';
 function About() {
   return (
-    <Herosec
-      cName="hero-about"
-      heroimg="/images/img-2.jpg"
-      title="About"
-      btnclass="hide"
-      />
+    <>
+    
+      <Aboutus/>
+    <Footer/>
+    </>
   )
 }
 
